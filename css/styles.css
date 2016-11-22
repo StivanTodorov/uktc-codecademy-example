@@ -15,7 +15,7 @@ body {
 	margin: 0;
 	padding: 5px;
 	font-size: 26px;
-	text-align: center;	
+	text-align: center;
 }
 
 .sidebar {
@@ -30,7 +30,7 @@ body {
 
 .user-container {
 	padding-top: 100px;
-	background: url(https://school.ecommera.net/img/banner.jpg);	
+	background: url(https://school.ecommera.net/img/banner.jpg);
 }
 
 .user-links {
@@ -151,3 +151,12 @@ body {
 #uktc:checked ~ .slider:after {
 	left: 60%;
 }
+@media (max-width: 760px) {
+    .sidebar{
+        display: none;
+    }
+        body{
+    padding: 0
+    }
+}
+
